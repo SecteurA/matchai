@@ -5,7 +5,7 @@ import Button from './Button';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white overflow-hidden">
+    <section className="relative h-96 flex items-center justify-center bg-gradient-to-br from-gray-50 to-white overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg')] bg-cover bg-center opacity-10"></div>
       
       {/* Decorative elements */}
@@ -33,13 +33,6 @@ export default function Hero() {
               Learn More
             </Button>
           </Link>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-black rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-black rounded-full mt-2"></div>
         </div>
       </div>
     </section>
