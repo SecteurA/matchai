@@ -229,7 +229,6 @@ export default function Loyalty() {
             Add to your Wallet
           </Button>
         </div>
-      </div>
 
       {/* CTA Section */}
       <section className="py-20 bg-black">
