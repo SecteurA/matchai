@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <span className="text-2xl font-black text-black tracking-tight uppercase" style={{ fontFamily: 'Oswald, sans-serif', fontWeight: 700 }}>
+              <span className="text-4xl font-black text-black tracking-tight uppercase" style={{ fontFamily: 'Oswald, sans-serif', fontWeight: 700 }}>
                 MAT<span className="text-black">CHA</span>I
               </span>
             </div>
@@ -58,7 +58,6 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-600 mt-12 pt-8">
         <div className="border-t border-gray-400 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-black text-sm">
@@ -72,6 +71,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
-  )
 }
