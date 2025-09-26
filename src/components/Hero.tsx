@@ -15,7 +15,6 @@ export default function Hero() {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
         <div className="mb-8 inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-gray-200">
           <Leaf className="h-5 w-5 text-black mr-2" />
-          <span className="text-gray-700 font-medium">Premium Japanese Matcha</span>
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6 tracking-tight">
