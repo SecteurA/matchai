@@ -97,7 +97,6 @@ export default function Home() {
             Ready to Experience Elegance?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-          <p className="text-xl text-gray-300 mb-8">
             Join us for an unforgettable matcha experience that combines Japanese tradition with Moroccan warmth.
           </p>
           <Link to="/menu">
@@ -109,6 +108,4 @@ export default function Home() {
       </section>
     </div>
   );
-}
-  )
 }

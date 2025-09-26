@@ -14,7 +14,6 @@ export default function Loyalty() {
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-4xl mx-auto text-center px-4">
         <div className="max-w-4xl mx-auto text-center px-4">
-          <div className="mb-8 inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-green-200">
             <span className="text-green-700 font-medium">Matchai Points Rewards</span>
             <span className="text-gray-700 font-medium">Matchai Points Rewards</span>
           </div>
