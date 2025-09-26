@@ -227,9 +227,6 @@ export default function Loyalty() {
               window.open('https://form.passquare.com/f0a1baeb-e149-4ab0-af16-7374c3bb54af', '_blank')
             }
             icon={CreditCard}
-          >
-            Add to your Wallet
-          </Button>
         </div>
       </section>
 
