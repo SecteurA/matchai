@@ -225,8 +225,8 @@ export default function Loyalty() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
+          <Button onClick={() => window.open('https://form.passquare.com/f0a1baeb-e149-4ab0-af16-7374c3bb54af', '_blank')} icon={CreditCard}>
+            Add to your Wallet
 
       {/* CTA Section */}
       <section className="py-20 bg-black">
