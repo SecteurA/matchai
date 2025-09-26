@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail, Instagram, Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#000a52] text-black">
+    <footer className="bg-[#dcdcdc] text-black">
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
@@ -18,10 +18,10 @@ export default function Footer() {
               Where tradition meets sophistication.
             </p>
             <div className="flex space-x-4">
-              <button className="w-10 h-10 bg-white hover:bg-green-600 rounded-full flex items-center justify-center transition-colors">
+              <button className="w-10 h-10 bg-gray-700 text-white hover:bg-green-600 rounded-full flex items-center justify-center transition-colors">
                 <Instagram className="h-5 w-5" />
               </button>
-              <button className="w-10 h-10 bg-white hover:bg-green-600 rounded-full flex items-center justify-center transition-colors">
+              <button className="w-10 h-10 bg-gray-700 text-white hover:bg-green-600 rounded-full flex items-center justify-center transition-colors">
                 <Facebook className="h-5 w-5" />
               </button>
             </div>
@@ -59,6 +59,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-600 mt-12 pt-8">
+        <div className="border-t border-gray-400 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-black text-sm">
               © 2025 Matchai. All rights reserved.
