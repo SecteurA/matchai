@@ -13,11 +13,7 @@ export default function Loyalty() {
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-4xl mx-auto text-center px-4">
-        <div className="max-w-4xl mx-auto text-center px-4">
-            <span className="text-green-700 font-medium">Matchai Points Rewards</span>
-            <span className="text-gray-700 font-medium">Matchai Points Rewards</span>
-          </div>
-          
+          <span className="text-green-700 font-medium">Matchai Points Rewards</span>
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
             Stay Elegant, Stay Rewarded
           </h1>
@@ -84,7 +80,7 @@ export default function Loyalty() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Green Tier */}
             <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow relative">
-              <div className="absolute top-4 right-4 w-3 h-3 bg-gray-400 rounded-full"></div>
+              <div className="absolute top-4 right-4 w-3 h-3 bg-gray-400 rounded-full" />
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Smartphone className="h-8 w-8 text-black" />
@@ -94,15 +90,15 @@ export default function Loyalty() {
               </div>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   Earn 1 point per 10 MAD
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   Birthday reward
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   Mobile app access
                 </li>
               </ul>
@@ -110,7 +106,7 @@ export default function Loyalty() {
 
             {/* Silver Tier */}
             <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow relative border-2 border-gray-300">
-              <div className="absolute top-4 right-4 w-3 h-3 bg-gray-400 rounded-full"></div>
+              <div className="absolute top-4 right-4 w-3 h-3 bg-gray-400 rounded-full" />
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="h-8 w-8 text-gray-600" />
@@ -120,19 +116,19 @@ export default function Loyalty() {
               </div>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   All Green benefits
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   1.5x points on Sundays
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   Free size upgrade monthly
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   Early access to new drinks
                 </li>
               </ul>
@@ -140,7 +136,7 @@ export default function Loyalty() {
 
             {/* Gold Tier */}
             <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-2xl p-8 shadow-md relative border-2 border-yellow-300">
-              <div className="absolute top-4 right-4 w-3 h-3 bg-yellow-500 rounded-full"></div>
+              <div className="absolute top-4 right-4 w-3 h-3 bg-yellow-500 rounded-full" />
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Star className="h-8 w-8 text-yellow-600" />
@@ -150,23 +146,23 @@ export default function Loyalty() {
               </div>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   All Silver benefits
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   2x points every visit
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   Free drink every 10 visits
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   VIP tasting events
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3" />
                   Personalized recommendations
                 </li>
               </ul>
@@ -184,20 +180,20 @@ export default function Loyalty() {
                 Add to Apple Wallet
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Keep your Matchai Points card in your Apple Wallet for easy access and automatic updates. 
+                Keep your Matchai Points card in your Apple Wallet for easy access and automatic updates.
                 Never miss a point or reward again.
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                  <div className="w-3 h-3 bg-black rounded-full" />
                   <span className="text-gray-700">Automatic point balance updates</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                  <div className="w-3 h-3 bg-black rounded-full" />
                   <span className="text-gray-700">Push notifications for rewards</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-black rounded-full"></div>
+                  <div className="w-3 h-3 bg-black rounded-full" />
                   <span className="text-gray-700">Quick access at checkout</span>
                 </div>
               </div>
@@ -225,10 +221,17 @@ export default function Loyalty() {
               </div>
             </div>
           </div>
-          <Button onClick={() => window.open('https://form.passquare.com/f0a1baeb-e149-4ab0-af16-7374c3bb54af', '_blank')} icon={CreditCard}>
+
+          <Button
+            onClick={() =>
+              window.open('https://form.passquare.com/f0a1baeb-e149-4ab0-af16-7374c3bb54af', '_blank')
+            }
+            icon={CreditCard}
+          >
             Add to your Wallet
           </Button>
         </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-black">
@@ -240,7 +243,11 @@ export default function Loyalty() {
             Visit our store in Agdal to get your Matchai Points card and start earning rewards with every purchase.
           </p>
           <div className="space-x-4">
-            <Button variant="secondary" size="lg" onClick={() => window.open('https://maps.app.goo.gl/Y5gkcyyNVbcjmMHQ8', '_blank')}>
+            <Button
+              variant="secondary"
+              size="lg"
+              onClick={() => window.open('https://maps.app.goo.gl/Y5gkcyyNVbcjmMHQ8', '_blank')}
+            >
               Visit Our Store
             </Button>
           </div>
@@ -248,6 +255,4 @@ export default function Loyalty() {
       </section>
     </div>
   );
-}
-  )
 }
