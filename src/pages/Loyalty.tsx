@@ -234,6 +234,7 @@ export default function Loyalty() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Start Earning Today
           </h2>
+          <p className="text-xl text-gray-100 mb-8">
             Visit our store in Agdal to get your Matchai Points card and start earning rewards with every purchase.
           </p>
           <div className="space-x-4">
