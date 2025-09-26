@@ -249,9 +249,3 @@ export default function Loyalty() {
     </div>
   );
 }
-  )
-}
-  )
-}
-  )
-}
