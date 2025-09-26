@@ -15,7 +15,7 @@ export default function Menu() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-green-50 to-white">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-4xl mx-auto text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
             Our Menu
@@ -37,7 +37,7 @@ export default function Menu() {
           <div className="grid md:grid-cols-2 gap-8">
             {menuItems.map((item) => (
               <div key={item.id} className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group">
-                <div className="aspect-video bg-gradient-to-br from-green-100 to-green-50 relative overflow-hidden">
+                <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-50 relative overflow-hidden">
                   <img 
                     src={`https://images.pexels.com/photos/${
                       item.id === 'rouge-cloud' ? '4021775' :
@@ -53,7 +53,7 @@ export default function Menu() {
                     alt={item.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0 bg-green-900/20"></div>
+                  <div className="absolute inset-0 bg-gray-900/20"></div>
                 </div>
                 
                 <div className="p-6">
@@ -64,7 +64,7 @@ export default function Menu() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">
                         <span className="text-sm font-medium text-gray-700">Small</span>
-                        <span className="text-lg font-bold text-green-600">{item.prices.small} MAD</span>
+                        <span className="text-lg font-bold text-black">{item.prices.small} MAD</span>
                       </div>
                       <Button
                         size="sm"
@@ -78,7 +78,7 @@ export default function Menu() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">
                         <span className="text-sm font-medium text-gray-700">Large</span>
-                        <span className="text-lg font-bold text-green-600">{item.prices.big} MAD</span>
+                        <span className="text-lg font-bold text-black">{item.prices.big} MAD</span>
                       </div>
                       <Button
                         size="sm"
@@ -97,12 +97,12 @@ export default function Menu() {
       </section>
 
       {/* Order CTA */}
-      <section className="py-20 bg-green-600">
+      <section className="py-20 bg-black">
         <div className="max-w-4xl mx-auto text-center px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready to Order?
           </h2>
-          <p className="text-xl text-green-100 mb-8">
+          <p className="text-xl text-gray-100 mb-8">
             Experience the perfect blend of tradition and innovation with our premium matcha drinks
           </p>
           <Button 
