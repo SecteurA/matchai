@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Award, MapPin } from 'lucide-react';
+import { Award, MapPin, Leaf } from 'lucide-react';
 import Hero from '../components/Hero';
 import Button from '../components/Button';
 
