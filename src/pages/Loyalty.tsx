@@ -221,12 +221,7 @@ export default function Loyalty() {
               </div>
             </div>
           </div>
-
-          <Button
-            onClick={() =>
-              window.open('https://form.passquare.com/f0a1baeb-e149-4ab0-af16-7374c3bb54af', '_blank')
-            }
-            icon={CreditCard}
+          {/* (Second wallet button removed as requested) */}
         </div>
       </section>
 
@@ -251,6 +246,5 @@ export default function Loyalty() {
         </div>
       </section>
     </div>
-  )
   );
 }
