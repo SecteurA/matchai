@@ -31,7 +31,7 @@ export default function Contact() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-green-50 to-white">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-4xl mx-auto text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
             Get in Touch
@@ -52,8 +52,8 @@ export default function Contact() {
               
               <div className="space-y-6 mb-8">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <MapPin className="h-6 w-6 text-green-600" />
+                  <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <MapPin className="h-6 w-6 text-black" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Location</h3>
@@ -62,7 +62,7 @@ export default function Contact() {
                       href="https://maps.app.goo.gl/Y5gkcyyNVbcjmMHQ8" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="text-green-600 hover:text-green-700 text-sm font-medium"
+                      className="text-black hover:text-gray-800 text-sm font-medium"
                     >
                       View on Google Maps →
                     </a>
@@ -70,15 +70,15 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Phone className="h-6 w-6 text-green-600" />
+                  <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Phone className="h-6 w-6 text-black" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Phone & WhatsApp</h3>
                     <p className="text-gray-600">+212 654-339907</p>
                     <button 
                       onClick={handleWhatsApp}
-                      className="text-green-600 hover:text-green-700 text-sm font-medium"
+                      className="text-black hover:text-gray-800 text-sm font-medium"
                     >
                       Message on WhatsApp →
                     </button>
@@ -86,8 +86,8 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Mail className="h-6 w-6 text-green-600" />
+                  <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Mail className="h-6 w-6 text-black" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
@@ -96,8 +96,8 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Clock className="h-6 w-6 text-green-600" />
+                  <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Clock className="h-6 w-6 text-black" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Opening Hours</h3>
@@ -140,7 +140,7 @@ export default function Contact() {
                       type="text"
                       id="name"
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     />
@@ -153,7 +153,7 @@ export default function Contact() {
                       type="email"
                       id="email"
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     />
@@ -167,7 +167,7 @@ export default function Contact() {
                   <input
                     type="text"
                     id="subject"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent"
                     value={formData.subject}
                     onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                   />
@@ -181,7 +181,7 @@ export default function Contact() {
                     id="message"
                     rows={6}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600 focus:border-transparent resize-none"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent resize-none"
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   />

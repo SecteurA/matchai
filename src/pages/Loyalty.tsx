@@ -11,11 +11,10 @@ export default function Loyalty() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-green-50 to-white">
-        <div className="max-w-4xl mx-auto text-center px-4">
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
           <div className="mb-8 inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-green-200">
-            <Gift className="h-5 w-5 text-green-600 mr-2" />
             <span className="text-green-700 font-medium">Matchai Points Rewards</span>
+            <span className="text-gray-700 font-medium">Matchai Points Rewards</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
@@ -39,8 +38,8 @@ export default function Loyalty() {
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="text-center">
-              <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Coffee className="h-10 w-10 text-green-600" />
+              <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Coffee className="h-10 w-10 text-black" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">1. Earn Points</h3>
               <p className="text-gray-600">
@@ -49,8 +48,8 @@ export default function Loyalty() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Star className="h-10 w-10 text-green-600" />
+              <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Star className="h-10 w-10 text-black" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">2. Collect Rewards</h3>
               <p className="text-gray-600">
@@ -59,8 +58,8 @@ export default function Loyalty() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Gift className="h-10 w-10 text-green-600" />
+              <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Gift className="h-10 w-10 text-black" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">3. Redeem Benefits</h3>
               <p className="text-gray-600">
@@ -84,25 +83,25 @@ export default function Loyalty() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Green Tier */}
             <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow relative">
-              <div className="absolute top-4 right-4 w-3 h-3 bg-green-400 rounded-full"></div>
+              <div className="absolute top-4 right-4 w-3 h-3 bg-gray-400 rounded-full"></div>
               <div className="text-center mb-6">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Smartphone className="h-8 w-8 text-green-600" />
+                <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Smartphone className="h-8 w-8 text-black" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800">Green Member</h3>
                 <p className="text-gray-600">0-99 Points</p>
               </div>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   Earn 1 point per 10 MAD
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   Birthday reward
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-green-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   Mobile app access
                 </li>
               </ul>
@@ -120,19 +119,19 @@ export default function Loyalty() {
               </div>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-gray-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   All Green benefits
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-gray-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   1.5x points on Sundays
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-gray-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   Free size upgrade monthly
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-gray-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   Early access to new drinks
                 </li>
               </ul>
@@ -150,23 +149,23 @@ export default function Loyalty() {
               </div>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-yellow-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   All Silver benefits
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-yellow-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   2x points every visit
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-yellow-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   Free drink every 10 visits
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-yellow-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   VIP tasting events
                 </li>
                 <li className="flex items-center text-gray-600">
-                  <div className="w-2 h-2 bg-yellow-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-black rounded-full mr-3"></div>
                   Personalized recommendations
                 </li>
               </ul>
@@ -189,15 +188,15 @@ export default function Loyalty() {
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-green-600 rounded-full"></div>
+                  <div className="w-3 h-3 bg-black rounded-full"></div>
                   <span className="text-gray-700">Automatic point balance updates</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-green-600 rounded-full"></div>
+                  <div className="w-3 h-3 bg-black rounded-full"></div>
                   <span className="text-gray-700">Push notifications for rewards</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-green-600 rounded-full"></div>
+                  <div className="w-3 h-3 bg-black rounded-full"></div>
                   <span className="text-gray-700">Quick access at checkout</span>
                 </div>
               </div>
@@ -209,7 +208,7 @@ export default function Loyalty() {
               <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-50 rounded-3xl overflow-hidden flex items-center justify-center">
                 <div className="w-48 h-80 bg-gradient-to-br from-gray-800 to-black rounded-2xl shadow-2xl flex flex-col items-center justify-between p-6 text-white">
                   <div className="text-center">
-                    <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center mb-2">
+                    <div className="w-8 h-8 bg-black rounded-full flex items-center justify-center mb-2">
                       <span className="text-white font-bold text-sm">M</span>
                     </div>
                     <div className="text-xl font-bold">Matchai Points</div>
@@ -229,12 +228,11 @@ export default function Loyalty() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-green-600">
+      <section className="py-20 bg-black">
         <div className="max-w-4xl mx-auto text-center px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Start Earning Today
           </h2>
-          <p className="text-xl text-green-100 mb-8">
             Visit our store in Agdal to get your Matchai Points card and start earning rewards with every purchase.
           </p>
           <div className="space-x-4">
