@@ -3,11 +3,6 @@ import { Gift, Smartphone, Star, Coffee, Award, CreditCard } from 'lucide-react'
 import Button from '../components/Button';
 
 export default function Loyalty() {
-  const handleAddToWallet = () => {
-    // This would integrate with Apple Wallet Pass API in a real implementation
-    alert('Wallet integration would be implemented here. For now, visit our store to get your Matchai Points card!');
-  };
-
   return (
     <div className="pt-16">
       {/* Hero Section */}
@@ -197,10 +192,21 @@ export default function Loyalty() {
                   <span className="text-gray-700">Quick access at checkout</span>
                 </div>
               </div>
-              <Button onClick={handleAddToWallet} icon={CreditCard}>
-                Add to Apple Wallet
+
+              {/* Only the external link button remains */}
+              <Button
+                onClick={() =>
+                  window.open(
+                    'https://form.passquare.com/f0a1baeb-e149-4ab0-af16-7374c3bb54af',
+                    '_blank'
+                  )
+                }
+                icon={CreditCard}
+              >
+                Add to your Wallet
               </Button>
             </div>
+
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-50 rounded-3xl overflow-hidden flex items-center justify-center">
                 <div className="w-48 h-80 bg-gradient-to-br from-gray-800 to-black rounded-2xl shadow-2xl flex flex-col items-center justify-between p-6 text-white">
@@ -221,7 +227,6 @@ export default function Loyalty() {
               </div>
             </div>
           </div>
-          {/* (Second wallet button removed as requested) */}
         </div>
       </section>
 
