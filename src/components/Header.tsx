@@ -25,7 +25,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-black text-black tracking-tight uppercase" style={{ fontFamily: 'Oswald, sans-serif', fontWeight: 700 }}>
+            <span className="text-4xl font-black text-black tracking-tight uppercase" style={{ fontFamily: 'Oswald, sans-serif', fontWeight: 700 }}>
               MAT<span className="text-black">CHA</span>I
             </span>
           </Link>
